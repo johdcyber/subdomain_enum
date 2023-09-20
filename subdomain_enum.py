@@ -23,7 +23,7 @@ def enumerate_subdomains(domain):
         subdomains.append(subdomain_url)
         print("...success.")
         #Write the successful connection a text file
-        with open("success.domain.txt", "a") as out_f:
+        with open("successdomains.txt", "a") as out_f:
           out_f.write(f"{subdomain_url}\n")
       except requests.ConnectionError:
           print("...failed.")
