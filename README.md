@@ -5,7 +5,7 @@ To use the script, simply save it as a Python file (e.g. subdomain_enum.py) and 
 
 python subdomain_enum.py example.com
 
-The script will then print a list of all valid subdomains that it found to the console and write the successful connections to the file succes.domain.txt.
+The script will then print a list of all valid subdomains that it found to the console and write the successful connections to the file succesdomains.txt.
 
 Usage:
 
